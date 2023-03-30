@@ -1,0 +1,100 @@
+body {
+    background-color: #1c315e;
+}
+h1 {
+    color: rgb(191, 200, 205);
+    font-family:Chivo mono;
+    font-size: 4rem;
+    margin-top: 140px;
+    
+    text-align: center;
+}
+h2 {
+    font-size: 2rem;
+    color:#00fff6;
+    font-family: Chivo mono;
+    
+    padding-top: 10px;
+    text-align: center;
+}
+p {
+    color:rgb(112, 230, 48);
+    margin: 50px;
+    text-align: center;
+}
+span {
+    display: inline-block;
+}
+ul {
+    color:rgb(112, 230, 48);
+    margin-left: 100px;
+}
+#about {
+    padding-top: 50px;
+}
+#skills {
+    padding-top: 50px;
+    text-align: center;
+}
+#projects {
+    padding-top: 50px;
+}
+#contact {
+    padding-top: 50px;
+}
+.sticky {
+    position:sticky;
+  position:-webkit-sticky;
+  top:0px;
+}
+.navbar-nav {
+    margin-left: 1150px;
+}
+.nav-link {
+    color: #1c315e;
+}
+.navbar-brand {
+    color: #1b1c1d;
+    padding-left: 20px;
+}
+.skills-table {
+    color:rgb(112, 230, 48);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.middle {
+    margin-bottom: 200px;
+}
+.nav-link {
+    color: #1b1c1d;
+}
+.nav-link:hover {
+    color: rgb(91, 37, 219);
+}
+.navbar-brand:hover {
+    color: rgb(91, 37, 219);
+}
+.navbar {
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.projects {
+    text-align: left;
+}
+.p1 {
+    margin-left: 200px;
+}
+.project-description {
+    margin-left: 200px;
+    text-align: left;
+    color:rgb(112, 230, 48);
+    width: 400px;
+    word-wrap: break-word;
+    
+}
+
+.seperator {
+    margin-top: 100px;
+}
