@@ -3,6 +3,7 @@
 
 <head>
     <meta lang="en" charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>Tyler's Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,15 +14,17 @@
     <script src="https://kit.fontawesome.com/bcd2000e9c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <div class="sticky">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Resume</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="assets/Resume - Tyler Grosz.pdf" target="_blank">Resume</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-item active" >
               <a class="nav-link" href="#about">About <span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
@@ -39,15 +42,15 @@
     </div>
     <div class="middle">
     <h1>Hi I'm Tyler Grosz</h1>
-    <h2>Software Developer</h2>
-    <p>I'm skilled in several programming languages and knowledgable about both front-end and back-end development.</p>
+    <h2>Aspiring Software Developer</h2>
+    <p>I'm skilled in several programming languages and knowledgeable about both front-end and back-end development.</p>
     </div>
     <section id="about">
       <h2>About me</h2>
-      <p>Hello, my name is Tyler and I enjoy building websites and apps. I became interested in software developement when I was working at my last job and desiring a career change. 
-        I discovered websites such as Udemy and Zero To Mastery and learned of courses that taught people how to program. I looked into some of these courses and became interested in learning to create my own 
-        websites and apps. After being laid off from my job, I started my first web developement course. I've really enjoyed learning how to code and
-        building my own websites and apps and look forward to continue to learn and grow in my knowledge of software developement.
+      <p>Hello, my name is Tyler and I love building things with code. I became interested in software development when I was working at my last job and desiring a career change. 
+        I discovered websites such as Udemy and Zero To Mastery and learned of courses that taught people how to program. I investigated some of these courses and became interested in
+         learning to create my own websites and apps. After being laid off from my job, I started my first web development course. I've really enjoyed learning how to code and
+        building my own websites and apps and look forward to continuing to learn and grow in my knowledge of software development.
       </p>
     </section>
     <section id="skills">
@@ -87,7 +90,9 @@
       </div>
       <h3 class="project-description">Grade Management API</h3>
       <span>
-      <p  class="project-description">An API that allows the user to create, read, update and delete student, grade, and course data in an in-memory SQL database provided by Spring Boot Data JPA. For more details about the project visit the repository on my GitHub by clicking on the project name.</p>
+      <p  class="project-description">An API written in Java that allows the user to create, read, update, and delete student, grade, and course data in an in-memory SQL database provided by Spring Boot Data JPA. For more details about the project visit the GitHub repository 
+        <a href="https://github.com/TylerGrosz9413/Grade-Management-API" target="_blank">here.</a>
+      </p>
       </span>
       <span>
       <img src="assets/grade-api.JPG" alt="Grade Management API"
@@ -101,7 +106,9 @@
     </div>
     <h3 class="project-description">Bike Inventory API</h3>
       <span>
-      <p  class="project-description">An API that allows the user to create, read, update, and delete data on bikes stored in an ArrayList. For more details about the project visit the repository on my GitHub by clicking on the project name.</p>
+      <p  class="project-description">An API written in Java that allows the user to create, read, update, and delete data on bikes stored in an Array List. For more details about the project visit the GitHub repository  
+        <a href="https://github.com/TylerGrosz9413/Bike-Inventory" target="_blank">here.</a>
+      </p>
       </span>
       <span>
       <img src="assets/bike-api.JPG" alt="Bike Inventory API"
@@ -114,12 +121,14 @@
 
     </div>
 
-    <h3 class="project-description">Hangman game</h3>
+    <h3 class="project-description">Blog Site</h3>
       <span>
-      <p  class="project-description">A console app that allows the user to play hangman. For more details about the project visit the repository on my GitHub by clicking on the project name.</p>
+      <p  class="project-description">A blog website for the Minnesota Vikings football team using ejs that allows posts to be created and read with a date stamp showing when the post was created. The site has several views including home, about, contact, compose, and post. For more information visit the GitHub repository 
+        <a href="https://github.com/TylerGrosz9413/Blog-Site" target="_blank">here.</a>
+      </p>
       </span>
       <span>
-      <img src="" alt="Hangman-game"
+      <img src='assets/blog3.JPG' alt="Blog site"
         width="500px"
         class="p1">
       </span>
@@ -129,12 +138,85 @@
 
     </div>
 
-    <h3 class="project-description">Tic-Tac-Toe game</h3>
+    <h3 class="project-description">Kanban Board</h3>
       <span>
-      <p  class="project-description">A console app that allows users to play tic-tac-toe. For more details about the project visit the repository on my GitHub by clicking on the project name.</p>
+      <p  class="project-description">A Kanban board built with HTML, CSS, and JavaScript that allows the user to create and delete tasks as well as move them from one pile to another. For more information visit the GitHub repository 
+      <a href="https://github.com/TylerGrosz9413/Kanban-Board" target="_blank">here.</a>
+        The app is hosted 
+        <a href="https://tylergrosz9413.github.io/Kanban-Board/" target="_blank">here.</a>
+      </p>
       </span>
       <span>
-      <img src="" alt="Tic-Tac-Toe"
+      <img src="assets/kanban.JPG" alt="Kanban board"
+        width="500px"
+        class="p1">
+      </span>
+      <span>
+    </span>
+    <div class="seperator">
+
+    </div>
+    <h3 class="project-description">Calculator</h3>
+      <span>
+      <p  class="project-description">An app that allows the user to make basic mathematical calculations (addition, subtraction, multiplication, division). For more information, visit the GitHub repository 
+        <a href="https://github.com/TylerGrosz9413/Calculator" target="_blank">here.</a>
+        The app is hosted 
+        <a href="https://tylergrosz9413.github.io/Calculator/" target="_blank">here.</a>
+      </p>
+      </span>
+      <span>
+      <img src="assets/Calculator.JPG" alt="Calculator"
+        width="500px"
+        class="p1">
+      </span>
+      <span>
+    </span>
+    <div class="seperator">
+
+    </div>
+
+    <h3 class="project-description">Note Taker</h3>
+      <span>
+      <p  class="project-description">A React app that allows users to record notes. The user can specify a title for each note and can delete any note after it has been created. For more details about the project visit the GitHub repository 
+        <a href="https://github.com/TylerGrosz9413/Note-Taker" target="_blank">here.</a>
+      </p>
+      </span>
+      <span>
+      <img src="assets/to-do list.JPG" alt="Note Taker"
+        width="500px"
+        class="p1">
+      </span>
+      <span>
+    </span>
+    <div class="seperator">
+
+    </div>
+
+    <h3 class="project-description">Hangman</h3>
+      <span>
+      <p  class="project-description">A Java console app that allows users to play hangman. For more details about the project visit the GitHub repository 
+        <a href="https://github.com/TylerGrosz9413/Hangman" target="_blank">here.</a>
+      </p>
+      </span>
+      <span>
+      <img src="assets/hangman.JPG" alt="Hangman"
+        width="500px"
+        class="p1">
+      </span>
+      <span>
+    </span>
+    <div class="seperator">
+
+    </div>
+
+    <h3 class="project-description">Tic-Tac-Toe</h3>
+      <span>
+      <p  class="project-description">A Java console app that allows users to play tic-tac-toe. For more details about the project visit the GitHub repository 
+        <a href="https://github.com/TylerGrosz9413/Tic-Tac-Toe" target="_blank">here.</a>
+      </p>
+      </span>
+      <span>
+      <img src="assets/tictactoe2.PNG" alt="Tic-Tac-Toe"
         width="500px"
         class="p1">
       </span>
@@ -148,10 +230,9 @@
     <section id="contact">
       <h2>Contact</h2>
       <p>tyler-grosz@outlook.com</p>
-      <p>GitHub: TylerGrosz9413</p>
+      <a class='github' href="https://github.com/TylerGrosz9413" target="_blank">GitHub: TylerGrosz9413</a>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
